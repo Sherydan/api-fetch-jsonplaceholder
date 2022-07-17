@@ -13,6 +13,18 @@
 </head>
 
 <body>
+    <!--  QUERYS 
+        LISTAR POR CATEGORIA:
+        SELECT * FROM product INNER JOIN category ON product.category = category.id WHERE category.id = 1
+
+        LISTAR LAS OFERTAS:
+        SELECT * FROM product WHERE product.discount > 0 ORDER BY product.discount DESC LIMIT 8
+
+        LISTAR BUSQUEDA
+        SELECT * FROM product WHERE product.name LIKE '%ene%'
+
+    
+    -->
 
     <div class="container my-2">
         <div class="row">
