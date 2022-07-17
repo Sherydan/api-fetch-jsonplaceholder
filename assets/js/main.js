@@ -7,7 +7,7 @@ const listUsers = async () => {
 
     users.forEach( (user, index) => {
         content += `
-        <div class="col-md-3">
+        <div class="col-md-3 my-2">
 
         <div class="card">
             <img src="..." class="card-img-top" alt="...">
